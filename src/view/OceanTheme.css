@@ -1,0 +1,38 @@
+
+
+.background {
+    -fx-background-color: #0097A7;
+}
+.ocean {
+    -fx-background-color: #008080;
+}
+.button-up{
+	-fx-background-color:#0097A7;
+	-fx-font-size: 10pt;
+	-fx-text-fill: #ffffff;
+	-fx-border-color:#ffffff;
+}
+
+
+.name-label{
+	-fx-font: 14pt "Arial";
+	-fx-text-fill:#0097A7;
+}
+.description-label{
+	-fx-font: italic 12pt "Arial";
+	-fx-opacity:0.6;	
+}
+
+.edit-textField{
+	-fx-background-color: transparent;
+	-fx-border-color:#ffffff;
+	-fx-text-fill: #ffffff;
+}
+.nameform{
+	-fx-font: italic 16pt "tahoma";
+	-fx-opacity:0.6;
+	-fx-text-fill:#000000;	
+}
+
+
+

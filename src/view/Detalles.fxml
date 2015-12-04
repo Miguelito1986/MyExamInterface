@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="ocean" stylesheets="@OceanTheme.css">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="123.0" layoutX="43.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="43.0" AnchorPane.topAnchor="56.0">
+                     <image>
+                        <Image url="@../imageview/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" styleClass="backgroundcolorimage" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="40.0">
+                     <image>
+                        <Image url="@../imageview/github_white.png" />
+                     </image>
+                  </ImageView>
+                  <MenuBar layoutY="-4.0" prefHeight="31.0" prefWidth="600.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Close" />
+                              <MenuItem mnemonicParsing="false" text="New.." />
+                              <MenuItem mnemonicParsing="false" text="Open" />
+                              <MenuItem mnemonicParsing="false" text="Save as..." />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Edit">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Delete" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Help">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="About" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="ocean" stylesheets="@OceanTheme.css">
+               <children>
+                  <Label styleClass="nameform" text="Apellidos" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="120.0" />
+                  <Label styleClass="nameform" text="Nombre" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0" />
+                  <Label styleClass="nameform" text="Dni" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="80.0" />
+                  <TextField layoutX="284.0" layoutY="36.0" />
+                  <TextField layoutX="284.0" layoutY="76.0" />
+                  <TextField layoutX="284.0" layoutY="116.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

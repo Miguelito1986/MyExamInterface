@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@OceanTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ExamController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="500.0" stylesheets="@OceanTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="42.0" layoutX="438.0" layoutY="254.0" onMouseClicked="#handleSend" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="20.0">
+                     <image>
+                        <Image url="@../imageview/send.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="90.0">
+                     <image>
+                        <Image url="@../imageview/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="90.0">
+                     <image>
+                        <Image url="@../imageview/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="90.0">
+                     <image>
+                        <Image url="@../imageview/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <Label styleClass="name-label" text="Me differently" AnchorPane.leftAnchor="220.0" AnchorPane.topAnchor="220.0" />
+                  <Label styleClass="nameform" stylesheets="@OceanTheme.css" text="Jeremy l." AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="260.0" />
+                  <Label styleClass="description-label" text="Programmers can designed" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="290.0" />
+                  <Button mnemonicParsing="false" styleClass="button-up" stylesheets="@OceanTheme.css" text="View in github" AnchorPane.topAnchor="20.0" />
+               </children>
+            </AnchorPane>
+         </center>
+         <left>
+            <AnchorPane prefHeight="341.0" prefWidth="50.0" styleClass="background" stylesheets="@OceanTheme.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-90.5" AnchorPane.topAnchor="15.0">
+                     <image>
+                        <Image url="@../imageview/github_white.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="50.0" styleClass="background" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
